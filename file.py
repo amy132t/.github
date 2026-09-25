@@ -8,7 +8,7 @@ attent_count = 0
  print(f"your starting score: {score}")
 
 while(remaining_attemps>0):
-  guess = input("your guess: ")
+  guess = int(input("your guess: "))
    print("enter your number between 1 and 100")
     continue
    attent_count+=1
